@@ -59,6 +59,7 @@ main ()
    string cont_name;
    cout<<"Here are the continents on which you can begin:"<<endl;
    cout<<"1. Europe. A rich, cold continent with 44 countries. If you can make it here, you can succeed anywhere. High healthcare funding."<<endl;
+   cout<<"Susceptible to Black Plague and Tuberculosis, Resistant to Cholera and Typhoid."<<endl; 
    cout<<"2. Asia. A large continent with varying weather conditions. High population and 48 countries make it a region worth colonizing."<<endl;
    cout<<"3. Africa. Hot, and the poorest continent. 54 countries. Due to low developmental index, easy to infect."<<endl;
    cout<<"4. ";
