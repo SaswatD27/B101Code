@@ -1,0 +1,65 @@
+#include<iostream>
+#include<cstring>
+using namespace std;
+int
+main ()
+{
+  cout <<
+    "Welcome to the disease spread simulator! In this small game, you play the role of a deadly disease where you have to infect the whole world!"
+    << endl;
+  cout <<
+    "First of all, let's pick a disease. Here are your options, my dear players: "
+    << endl;
+  cout <<
+    "1. Cholera. A bacterial disease caused by Vibrio cholerae, I am spread through water and affect the small intestine to cause diarrhoea. Enter 1 to choose me!"
+    << endl;
+  cout <<
+    "2. Tuberculosis. An old, well-known disease, I am also called phthisis and consumption. A disease caused by Mycobacterium tuberculosis, I can cause lung infections. Enter 2 to choose me!"
+    << endl;
+  cout <<
+    "3. The Bubonic Plague. Caused by the bacterium Yersinia pestis, I have caused one of the greatest human plagues in the middle ages. I cause flu-like symptoms along with lymphnode swelling. Enter 3 to choose me! "
+    << endl;
+  cout <<
+    "4. Typhoid. I am caused by Salmonella typhi, and when I spread from an infected person through contaminated food or water, and cause high fever and abdominal pain. Enter 4 to choose me!"
+    << endl;
+  int disease_choice;
+  string disease_name;
+  label:
+  cout << "You are now familiar with the diseases! Enter a choice: "<<endl;
+  cin >> disease_choice;
+  switch (disease_choice)
+    {
+    case 1:
+      disease_name = "Cholera";
+      cout << "You have selected " << disease_name <<
+	"! Let us begin our journey of world domination together!";
+      break;
+    case 2:
+      disease_name = "Tuberculosis";
+      cout << "You have selected " << disease_name <<
+	"! Let us begin our journey of world domination together!";
+      break;
+    case 3:
+      disease_name = "Bubonic Plague";
+      cout << "You have selected " << disease_name <<
+	"! Let us begin our journey of world domination together!";
+      break;
+    case 4:
+      disease_name = "Typhoid";
+      cout << "You have selected " << disease_name <<
+	"! Let us begin our journey of world domination together!";
+      break;
+    default:
+        cout<<"Invalid choice!";
+        goto label;
+    }
+   cout<<endl<<" Now, any good disease must be in search of a region to begin its outbreak. We all begin small."<<endl;
+   cout<<"Let us infect a single Patient Zero in a single continent. Select which one you would like! ";
+   int land_choice;
+   string cont_name;
+   cout<<"Here are the continents on which you can begin:"<<endl;
+   cout<<"1. Europe. A rich, cold continent with 44 countries. If you can make it here, you can succeed anywhere. High healthcare funding."<<endl;
+   cout<<"2. Asia. A large continent with varying weather conditions. High population and 48 countries make it a region worth colonizing."<<endl;
+   cout<<"3. Africa. Hot, and the poorest continent. 54 countries. Due to low developmental index, easy to infect."<<endl;
+   cout<<"4. ";
+}
