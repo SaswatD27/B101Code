@@ -1,0 +1,11 @@
+#include<iostream>
+#include<random>
+using namespace std;
+int main()
+{
+    int mind, maxd;
+    cout<<"Enter the bounds: ";
+    cin>>mind>>maxd;
+    int randNum = rand()%(maxd-mind + 1) + mind;
+    cout<<"A random number between these is: "<<randNum;
+}
