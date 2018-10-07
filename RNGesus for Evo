@@ -1,11 +1,19 @@
-#include<iostream>
-#include<random>
+#include <iostream>
+#include <ctime>
+#include <cstdlib>
+
 using namespace std;
+
 int main()
 {
-    int mind, maxd;
-    cout<<"Enter the bounds: ";
-    cin>>mind>>maxd;
-    int randNum = rand()%(maxd-mind + 1) + mind;
-    cout<<"A random number between these is: "<<randNum;
-}
+    int userBeg, userEnd, outPut;
+
+    cout << "Enter a start value: ";
+    cin >> userBeg;
+    cout << "Enter an end value: ";
+    cin >> userEnd;
+    srand(time(NULL)); //generates random seed val
+    outPut = rand()%((userEnd - userBeg) + 1) + userBeg; 
+    cout<<outPut;
+    return 0;
+}    
