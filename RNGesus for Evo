@@ -13,7 +13,13 @@ int main()
     cout << "Enter an end value: ";
     cin >> userEnd;
     srand(time(NULL)); //generates random seed val
-    outPut = rand()%((userEnd - userBeg) + 1) + userBeg; 
-    cout<<outPut<<" "<<outPut;
+    {
+        outPut = rand()%((userEnd - userBeg) + 1) + userBeg; 
+        cout<<outPut;
+        outPut = rand()%((userEnd - userBeg) + 1) + userBeg;
+        cout<<outPut;
+    }
     return 0;
 }    
+
+ 
