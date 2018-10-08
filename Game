@@ -24,8 +24,8 @@ main ()
     << endl;
   int disease_choice;
   string disease_name;
-  label:
-  cout << "You are now familiar with the diseases! Enter a choice: "<<endl;
+label:
+  cout << "You are now familiar with the diseases! Enter a choice: " << endl;
   cin >> disease_choice;
   switch (disease_choice)
     {
@@ -50,17 +50,81 @@ main ()
 	"! Let us begin our journey of world domination together!";
       break;
     default:
-        cout<<"Invalid choice!";
-        goto label;
+      cout << "Invalid choice!";
+      goto label;
     }
-   cout<<endl<<" Now, any good disease must be in search of a region to begin its outbreak. We all begin small."<<endl;
-   cout<<"Let us infect a single Patient Zero in a single continent. Select which one you would like! ";
-   int land_choice;
-   string cont_name;
-   cout<<"Here are the continents on which you can begin:"<<endl;
-   cout<<"1. Europe. A rich, cold continent with 44 countries. If you can make it here, you can succeed anywhere. High healthcare funding."<<endl;
-   cout<<"Susceptible to Black Plague and Tuberculosis, Resistant to Cholera and Typhoid."<<endl; 
-   cout<<"2. Asia. A large continent with varying weather conditions. High population and 48 countries make it a region worth colonizing."<<endl;
-   cout<<"3. Africa. Hot, and the poorest continent. 54 countries. Due to low developmental index, easy to infect."<<endl;
-   cout<<"4. ";
+  cout << endl <<
+    " Now, any good disease must be in search of a region to begin its outbreak. We all begin small."
+    << endl;
+  cout <<
+    "Let us infect a single Patient Zero in a single continent. Select which one you would like! ";
+  int land_choice;
+  string cont_name;
+  cout << "Here are the continents on which you can begin:" << endl;
+  cout <<
+    "1. Europe. A rich, cold continent with 44 countries. If you can make it here, you can succeed anywhere. "
+    << endl;
+  cout <<
+    "Susceptible to Bubonic Plague and Tuberculosis, Resistant to Cholera." <<
+    endl << endl;
+  cout <<
+    "2. Asia. A large continent with varying weather conditions. High population and 48 countries make it a region worth colonizing."
+    << endl;
+  cout << "Susceptible to Typhoid and Tuberculosis, Resistant to Cholera." <<
+    endl << endl;
+  cout <<
+    "3. Africa. Hot, and the poorest continent. 54 countries. Due to low developmental index, easy to infect."
+    << endl;
+  cout << "Susceptible to Cholera and Typhoid, Resistant to Bubonic Plague."
+    << endl << endl;
+  cout <<
+    "4. Oceania. 14 countries, but difficult to conquer since most countries are isolated islands."
+    << endl;
+  cout <<
+    "Susceptible to Cholera and Bubonic Plague, Resistant to Tuberculosis." <<
+    endl << endl;
+  cout <<
+    "5. North America. 23 countries, a diverse continent of many populations."
+    << endl;
+  cout <<
+    "Susceptible to Bubonic Plague and Typhoid, Resistant to Tuberculosis." <<
+    endl << endl;
+  cout <<
+    "6. South America. 12 countries, but full of diverse regions from vast mountain ranges to rainforests."
+    << endl;
+  cout << "Susceptible to Tuberculosis and Cholera, Resistant to Typhoid." <<
+    endl << endl;
+flag1:
+  cout << "Which region would you like? ";
+  cin >> land_choice;
+  switch (land_choice)
+    {
+    case 1:
+      cont_name = "Europe";
+      cout << "You have selected " << cont_name << "! Good luck!";
+      break;
+    case 2:
+      cont_name = "Asia";
+      cout << "You have selected " << cont_name << "! Good luck!";
+      break;
+    case 3:
+      cont_name = "Africa";
+      cout << "You have selected " << cont_name << "! Good luck!";
+      break;
+    case 4:
+      cont_name = "Oceania";
+      cout << "You have selected " << cont_name << "! Good luck!";
+      break;
+    case 5:
+      cont_name = "North America";
+      cout << "You have selected " << cont_name << "! Good luck!";
+      break;
+    case 6:
+      cont_name = "South America";
+      cout << "You have selected " << cont_name << "! Good luck!";
+      break;
+    default:
+      cout << "That does not seem like a valid choice! ";
+      goto flag1;
+    }
 }
