@@ -24,7 +24,7 @@ int main()
     << endl;
   int disease_choice;
   string disease_name;
-label:
+	label:
   cout << "You are now familiar with the diseases! Enter a choice: " << endl;
   cin >> disease_choice;
   switch (disease_choice)
@@ -127,4 +127,10 @@ flag1:
       cout << "That does not seem like a valid choice! ";
       goto flag1;
     }
+   int mutarate;
+   int smolrate=3;
+   int bigrate=8;
+   srand(time(NULL)); 
+   mutarate=rand()%((bigrate-smolrate)+1)+bigrate; 
+   cout<<"You will receive an mutation in "<<mutarate<<" turns!"<<endl;
 }
