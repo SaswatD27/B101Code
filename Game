@@ -132,5 +132,6 @@ flag1:
    int bigrate=8;
    srand(time(NULL)); 
    mutarate=rand()%((bigrate-smolrate)+1)+bigrate; 
-   cout<<"You will receive an mutation in "<<mutarate<<" turns!"<<endl;
+   cout<<"Congratulations! You have infected your first patient with the disease "<<disease_name<<" in "<<cont_name<<" !. This young man is Patient Zero."<<endl;
+   cout<<"You will receive an mutation in "<<mutarate<<" turns."<<endl;
 }
