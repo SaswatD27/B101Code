@@ -1,0 +1,44 @@
+#include<iostream>
+#include<ctime>
+#include<cstdlib>
+#include<cstring>
+using namespace std;
+int main()
+{
+    int lowestRate=3;
+    int highestRate=8;
+    int mutarate;
+    int mutanum;
+    int mutafirst=1;
+    int mutalast=3;
+    string mutaname;
+    int spreadrate=5;
+    srand(time(NULL)); //generates random seed val
+    for(int i=mutarate; i>0; i--)
+    {
+      mutarate= rand()%((highestRate-lowestRate)+1)+lowestRate;
+      cout<<"You will receive a mutation in "<<mutarate<<" turns.";
+      --mutarate;
+    }
+    mutanum=rand()%((mutalast-mutafirst)+1)+mutafirst;
+    if(mutarate==0)
+      cout<<"You have received a new mutation! It is mutation number "<<mutanum<<". ";
+      switch (mutanum)
+      {
+        case 1:
+          mutaname="Favoured spread";
+          cout<<"It is the mutation of "<<mutaname<<". Its effect is that the country colonization rate decreases by 1. ";
+          spreadrate=4;
+          break;
+        case 2:
+          mutaname="Impeded spread";
+          cout<<"It is the mutation of "<<mutaname<<". Its effect is that the country colonization rate increases by 1. ";
+          spreadrate=6;
+          break;
+        default:
+          cout<<" lul scrub";
+          break;
+      }
+    cout<<"Rate of country colonization is now "<<spreadrate<<". ";
+    return 0;
+}    
