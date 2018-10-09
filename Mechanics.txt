@@ -1,0 +1,28 @@
+EPIDEMICA
+
+Select one of 4 diseases-> each is strong in certain regions
+Choose a region; base colonization rate= 5 units (+- 1 based on choice vis a vis susceptibility)
+Base Eradication Rate: 50 turns
+
+Every [3,8] turns, you are given a random mutation (from choices 1 to 9)
+Favoured Spread: Base Colonization Rate=4
+Impeded Spread: Base Colonization Rate=6
+Strain Evolution: Eradication rate increases by [5,15]
+Strain Extinction: Eradication rate decreases by [1,5]
+Severe Symptoms: Mutation rate becomes [2,7]
+Weak Symptoms: Mutation rate becomes [4, 9]
+Antibiotic Resistance: Every time a mutation is given, the eradication rate increases by 10% BUT Strain Evolution Mutation makes eradication rate by only [2, 12]
+Medical R&D: Every time a mutation is given, the eradication rate decreases by 10% BUT Strain Evolution Mutation makes eradication rate to [7, 17]
+Colonization: Spread to a new region of 30 countries apart from the ones you are already in
+
+If you cover all regions you win; Else if you get eradicated you are dead.
+
+Finally, output the number of countries conquered and display pre-coded compliments based on how many that is. (Good job, you read this whole thing!)
+
+
+
+
+
+  
+
+
