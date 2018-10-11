@@ -1,7 +1,55 @@
 EPIDEMICA
 
 Select one of 4 diseases-> each is strong in certain regions
+1. Anthrax
+2. Cholera
+3. Tuberculosis
+4. Bubonic Plague
 Choose a region; base colonization rate= 5 units (+- 1 based on choice vis a vis susceptibility)
+There are 6 continents, each with 6 biomes:
+  1. Asia
+      - Plains: Gangetic Plains
+      - Mountains: Pamir Knot
+      - Forests: Borneo
+      - Deserts, Plateaux, and Mesas: Karakum
+      - Coasts: Indian Peninsula
+      - Islands: Indonesian Archipelago
+  2. Africa
+      - Plains: Serengeti and Okavango Deltas
+      - Mountains: Kilimanjaro
+      - Forests: Congo Rainforest
+      - Deserts, Plateaux, and Mesas: Sahara
+      - Coasts: Bight of Benin, Horn of Africa, Gulf of Africa
+      - Islands: Madagascar
+  3. South America
+      - Plains: Pampas, Pantanal
+      - Mountains: Andes
+      - Forests: Amazon
+      - Deserts, Plateaux, and Mesas: Atacama
+      - Coasts: Humboldt Current Region
+      - Islands: Galapagos, Easter and Falkland
+  4. North America
+      - Plains: Prairie
+      - Mountains: Rockies
+      - Forests: Central American Rainforest
+      - Deserts, Plateaux, and Mesas: Mojave
+      - Coasts: Western and Eastern Seaboard
+      - Islands: Aleutians, Hawaii, Caribbean
+  5. Oceania
+      - Plains: Canterbury
+      - Mountains: South Alps
+      - Forests: Papua New Guinea
+      - Deserts, Plateaux, and Mesas: Great Victoria Desert
+      - Coasts: Great Barrier Reef
+      - Islands: South Pacific
+  6. Europe
+      - Plains: Steppes
+      - Mountains: Alps
+      - Forests: Taiga
+      - Deserts, Plateaux, and Mesas: Scandinavia
+      - Coasts: Baltic Coast
+      - Islands: Greenland, Spanish Islands
+  
 Base Eradication Rate: 50 turns
 
 Every [3,8] turns, you are given a random mutation (from choices 1 to 9)
