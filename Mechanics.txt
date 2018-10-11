@@ -50,6 +50,15 @@ There are 6 continents, each with 6 biomes:
       - Coasts: Baltic Coast
       - Islands: Greenland, Spanish Islands
   
+Which Biome is weak to what disease?
+
+1. Plains: weak to Anthrax, Bubonic Plague; resistant to Tuberculosis
+2. Mountains: weak to Tuberculosis, Anthrax; resistant to Cholera 
+3. Forests: weak to Tuberculosis, Bubonic Plague; resistant to Anthrax
+4. DPM: weak to Bubonic Plague, Cholera; resistant to Anthrax
+5. Coasts: weak to Cholera, Anthrax; resistant to Bubonic Plague
+6. Islands: weak to Cholera, Tuberculosis; resistant to Bubonic Plague
+
 Base Eradication Rate: 50 turns
 
 Every [3,8] turns, you are given a random mutation (from choices 1 to 9)
@@ -66,6 +75,12 @@ Colonization: Spread to a new region of 30 countries apart from the ones you are
 If you cover all regions you win; Else if you get eradicated you are dead.
 
 Finally, output the number of countries conquered and display pre-coded compliments based on how many that is. (Good job, you read this whole thing!)
+
+==> Goals as of 11/10/18
+1. Build structure of program
+2. Check feasibility of numbers
+3. Build sleep function
+4. Code for biomes
 
 
 
