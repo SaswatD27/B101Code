@@ -74,10 +74,10 @@ Medical R&D: Every time a mutation is given, the eradication rate decreases by 1
 Colonization: Spread to a new continent apart from the ones you are already in
 
 Now, the list of continental bonuses- what benefit do you get for starting on a continent? (This bonus remains constant throughout the game; does not change when you shift continents)
-1. Africa: At the beginning of the game, there is a 25% chance that the BCR will decrease by 1.
-2. Asia: At each mutation, there is a 10% chance that you will get an extra mutation.
+1. Africa: At the beginning of the game, there is a  15% chance that the BCR will decrease by 1.
+2. Asia: At each mutation, there is a 25% chance that you will get an extra mutation.
 3. Europe (Challenge Mode): BER decreases by 5 each time you receive a mutation.
-4. Oceania: At the beginning of the game, there is a 5% chance that all biome resistances are neglected.
+4. Oceania: At the beginning of the game, there is a 15% chance that all biome resistances are neglected.
 5. North America: At each colonization of a new biome, there is a 5% chance that you will colonize another region. 
 6. South America: If BER becomes zero, there is a 25% chance that you will be revived ONCE with a BER of 10.
 
