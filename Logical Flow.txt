@@ -1,0 +1,10 @@
+Let us assume we give the key mechanic values the following values-
+1. BER=50
+2. BCR=5
+3. BMR=rand()%(2,6)
+(these can be easily edited later based on the results from differential models)
+if(ber>0)
+  for(ber>0, ber--)
+      execute stuff
+if ber==0\
+  u haz died xD rip (press f to pay respecc)
