@@ -1,6 +1,6 @@
 EPIDEMICA
 
-Select one of 4 diseases-> each is strong in certain regions
+Select one of 4 diseases-> each is strong in certain regions (if we cannot model real world diseases through use of SIR model/PDEs, create your own diseases!)
 1. Anthrax
 2. Cholera
 3. Tuberculosis
@@ -84,6 +84,17 @@ Now, the list of continental bonuses- what benefit do you get for starting on a 
 If you cover all regions you win; Else if you get eradicated you are dead.
 
 Finally, output the number of countries conquered and display pre-coded compliments based on how many that is. (Good job, you read this whole thing!)
+
+Conditionals:
+If more than 20 biomes are covered, the tempo of the game changes.
+1. BER decreases by either 1 or 2 every time: increased medical research efforts and quarantine may cause the faster death of the disease
+2. BMR range increases by 2 to [lowerbound-1, upperbound+1]: More variability as selection pressure causes genetic variation and dissimilarity of strains
+3. BCR increases by 1: lockdown on borders and quarantine of the infected stymies spread
+
+If more than 30 biomes are covered:
+1. BER decreases by 2 or 3 every turn
+2. BMR range increases to [lowerbound-2, upperbound+2]
+3. BCR + 2
 
 ==> Goals as of 11/10/18
 1. Build structure of program
