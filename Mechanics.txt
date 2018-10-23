@@ -1,5 +1,7 @@
 EPIDEMICA
 
+ALL VALUES ARE ARBITRARY
+
 Select one of 4 diseases-> each is strong in certain regions (if we cannot model real world diseases through use of SIR model/PDEs, create your own diseases!)
 1. Anthrax
 2. Cholera
