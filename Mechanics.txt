@@ -104,6 +104,12 @@ If more than 30 biomes are covered:
 3. Build sleep function
 4. Code for biomes
 
+==> Goals as of 26/10/18
+1. Build the biome mechanics
+2. Build conditional difficulties and continental bonuses
+3. Check number feasibility
+4. Integrate modules into final program
+
 
 
 
