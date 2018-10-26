@@ -109,6 +109,8 @@ If more than 30 biomes are covered:
 2. Build conditional difficulties and continental bonuses
 3. Check number feasibility
 4. Integrate modules into final program
+5. Work on user interface, interaction and playability
+6. Models for values via epidemic DE's
 
 
 
