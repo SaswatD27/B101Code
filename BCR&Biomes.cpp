@@ -13,8 +13,10 @@ using namespace std;
 int main()
 {
   cout<<"Welcome to the Epidemica global spread simulator!";
+srand (time (NULL));
+  int mutacancel=rand()%((9-1)+1)+1;
   cout<<" Please select a continent from the list below. Each continent comprises 6 biomes representing key geographical features. "<<endl;
-  cout<<"1. Europe. A cold, rich continent in the Northern Hemisphere. Challenging to conquer, it has a negative continental effect on account of its high medical output and research. Each time you receive a mutation, your BER shall decrease by 2."<<endl;
+  cout<<"1. Europe. A cold, rich continent in the Northern Hemisphere. Challenging to conquer, it has an ambiguous continental effect on account of its high medical output and research. One of the 9 mutations you can receive (apart from the nothing mutation) will also become nothing."<<endl;
   cout<<"2. Africa. A hot, poor continent lying both in the Southern and Northern Hemispheres. Due to its weaknesses and lack of wealth, it is quite easy for diseases to spread there. As a result, there is a 15% chance at the beginning of the game that your initial BCR will be decreased by 1 for the rest of the game as a starting value. Don't forget to bless the rains down in Africa. "<<endl;
   cout<<"3. South America. A tropical continent with a wide range of vegetation, many forgotten things still can persist there, undiscovered. As a result, because of choosing South America, there is a 25% chance that after being eradicated once by humanity, there is a 25% chance you will be revived for 10 more turns."<<endl;
   cout<<"4. North America. A rich, varied continent. On account of its vast swathes of unclaimed terrain and its low population density relative to other parts of the world, its effect is that every time you spread to a new biome on a continent, there is a 5% chance that you will spread to another biome as well."<<endl;
@@ -25,4 +27,8 @@ int main()
   cin>>conti_name;
   transform(conti_name.begin(), conti_name.end(), conti_name.begin(), [](char c){
             return tolower(c);});
-  cout<<conti_name<<" has been selected.";}
+  if(conti_name=="asia")
+    cout<<"You have selected Asia! Hence, you get the powerup that every time you receive a mutation, there is a 25% chance of getting another mutation!"<<endl;
+  else if (conti_name)=="europe")
+    cout<<"You have selected Europe! Mutation number "<<mutacancel<<" is now cancelled and will no longer have any effect.";
+  else cout<<"lul forgot to code the rest.";
