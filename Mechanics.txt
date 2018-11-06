@@ -114,12 +114,11 @@ If more than 30 biomes are covered:
 
 ==> Goals as of 6/11/18
 1. Colonization Mechanism
-2. Continental Bonuses
-3. Conditional Difficulty
-4. Integrate modules
-5. UI and Flavor Text
-6. After you get X, every time after X appears once, Y happens (medical r&d, antibiotic resistance)
-7. Disease Choices
+2. Conditional Difficulty (DONE!)
+3. Integrate modules
+4. UI and Flavor Text (DONE!)
+
+
 
 
 
